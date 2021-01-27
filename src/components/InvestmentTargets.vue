@@ -80,6 +80,7 @@ export default {
       },
     };
   },
+  //for any complex logic, you should use a computed property.
   computed: {
     processedSeries() {
       return [
@@ -90,6 +91,7 @@ export default {
             show: true,
             formatter: '{b}',
           },
+          //returns the absolute value of a number
           data: this.dataset.map((value) => ({
             value: value,
             name: Math.abs(value).toString(),

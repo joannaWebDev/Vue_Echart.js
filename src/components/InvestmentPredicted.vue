@@ -63,6 +63,7 @@
         },
       };
     },
+    //for any complex logic, you should use a computed property.
     computed: {
       months() {
         return this.dataset.map(item => item.month);
@@ -70,12 +71,14 @@
       processedSeries() {
         // value bands
         const fillers = this.dataset.map(item => item.low);
+
         const lowerBand = this.dataset.map(item => {
           if (item.low > 50) {
             return 0;
           }
           return Math.min(item.high, 50) - item.low;
-        })
+        });
+
         const upperBand = this.dataset.map(item => {
           if (item.low > 50) {
             return item.high - item.low;
@@ -114,6 +117,7 @@
         ]
       }
     },
+    //lifecycle hooks.There are also other hooks which will be called at different stages of the instance’s lifecycle, such as mounted, updated, and destroyed. All lifecycle hooks are called with their this context pointing to the Vue instance invoking it.
     mounted() {
       this.bar.xAxis.data = this.months;
       this.bar.series = this.processedSeries;
