@@ -56,6 +56,4 @@ npm run storybook
 
 ## Storybook
 
-<p>
-    <img src="storybook.png" />
-</p>
+![Storybook](/storybook.png)
