@@ -39,6 +39,17 @@ https://programmer.ink/think/how-to-use-echarts-in-vue-projects.html
 
 ***
 
+
+## Storybook
+https://storybook.js.org/docs/react/get-started/install
+https://kreuzwerker.de/en/post/storybook-for-vue
+
+Run it: 
+```
+npm run storybook
+```
+
+
 ## Final result
 
   ![Charts](charts.png)

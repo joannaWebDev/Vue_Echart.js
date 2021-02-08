@@ -3,6 +3,7 @@
 </template>
 
 <script>
+
 import ECharts from 'vue-echarts/components/ECharts';
 import 'echarts/lib/chart/bar';
 
