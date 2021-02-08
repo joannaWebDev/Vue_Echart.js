@@ -56,4 +56,4 @@ npm run storybook
 
 ## Storybook
 
-![Storybook](charts.png)
+![Storybook](capture.PNG)
