@@ -52,7 +52,7 @@ npm run storybook
 
 ## Final result
 
-  ![Charts](charts.png)
+![Charts](charts.png)
 
 ## Storybook
 
