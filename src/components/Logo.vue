@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <img src="https://img.oneragtime.com/uploads/2018/08/logo-color.png" alt="OneRagtime" >
+    <img src="../assets/logo.png" alt="OneRagtime" >
   </div>
 </template>
 
